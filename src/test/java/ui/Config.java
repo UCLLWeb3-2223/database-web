@@ -1,7 +1,7 @@
 package ui;
 
 public class Config {
-    public static String BASE_URL = "https://dev-template.project2.projectweek.be/Controller";
+    public static String BASE_URL = "http://localhost:8080/Animals_war_exploded/Controller";
 
 
 
