@@ -10,7 +10,7 @@ public class SampleAnimalTest {
         Animal animal = new Animal(5, "Zorro", "tijger", 3);
         assertEquals("Zorro", animal.getName());
         assertEquals("tijger", animal.getType());
-        assertEquals(2, animal.getFood());
+        assertEquals(3, animal.getFood());
     }
 
     @Test(expected = IllegalArgumentException.class)
