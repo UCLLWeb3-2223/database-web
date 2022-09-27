@@ -5,7 +5,7 @@ import domain.model.Animal;
 import java.util.ArrayList;
 
 public class AppService {
-    private AnimalService animals = new AnimalServiceDB();
+    private AnimalService animals = new AnimalServiceDBSQL();
 
     public void addAnimal(Animal animal) {
         animals.addAnimal(animal);

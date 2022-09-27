@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import domain.service.AnimalServiceDB;
 import domain.service.AppService;
 
 @WebServlet("/Controller")

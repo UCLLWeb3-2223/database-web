@@ -6,11 +6,11 @@ import util.DbConnectionService;
 import java.sql.*;
 import java.util.ArrayList;
 
-public class AnimalServiceDB implements AnimalService {
+public class AnimalServiceDBSQL implements AnimalService {
     private final Connection connection;
     private final String schema;
 
-    public AnimalServiceDB() {
+    public AnimalServiceDBSQL() {
         this.connection = DbConnectionService.getDbConnection();
         this.schema = DbConnectionService.getSchema();
     }
